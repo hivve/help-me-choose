@@ -3,14 +3,15 @@
   <head> <!--info som ej syns-->
     <meta charset="utf-8">
     <title>Help me choose!</title> <!--#står på fliken-->
+    <link href="./main.css" rel="stylesheet">
   </head>
   <body> <!--info som syns-->
     <h1>Help me choose between...</h1>
-    <div> <!--grupperar ihop allt i div-->
-      <div>
+    <div class="inputSection"> <!--grupperar ihop allt i div, get namn så man kan hitta saker i den i sin tur-->
+      <div class="inputs">
         <input placeholder="Something"></input> <!--när fältet e tomt kan man ha en placeholder text där-->
       </div>
-      <button>Add</button>
+      <button class="addOption">Add</button>
     </div>
     <button>Go</button> <!--andra knappen kommer utanför input diven-->
   </body>
